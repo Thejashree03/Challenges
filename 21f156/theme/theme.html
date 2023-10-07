@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+      <link rel="stylesheet" href="theme.css">
+   
+</head>
+<body class="light-mode">
+    <div class="container">
+      
+        <p>WELCOME</p>
+        <button class="toggle-button" onclick="toggleMode()">Toggle Dark/Light Mode</button>
+    </div>
+
+    <script>
+        function toggleMode() {
+            const body = document.body;
+            body.classList.toggle('dark-mode');
+            body.classList.toggle('light-mode');
+        }
+    </script>
+</body>
+</html>
